@@ -138,7 +138,7 @@ alchat-content-safety/
 │   │   └── ui/                     # shadcn/ui 组件库
 │   └── lib/
 │       ├── content-safety.ts       # 核心检测引擎（敏感词库+风险评分）
-│       ├── ai-safety-detector.ts   #核心引擎(接入使用通义千问API对用户输入内容进行安全检测，返回结构化的检测结果，包括风险等级、敏感类别和AI的判断理由)
+│       ├── ai-safety-detector.ts   # 核心引擎(接入使用通义千问API对用户输入内容进行安全检测，返回结构化的检测结果，包括风险等级、敏感类别和AI的判断理由)
 │       └── utils.ts                # 工具函数
 ├── public/                         # 静态资源
 ├── package.json                    # 项目依赖

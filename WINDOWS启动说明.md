@@ -130,6 +130,7 @@ alchat-content-safety/
 │   │       ├── chat/route.ts       # 对话与检测接口
 │   │       ├── detection-logs/route.ts  # 检测日志接口
 │   │       ├── statistics/route.ts      # 统计数据接口
+│   │       ├── safety/route.ts          # ai配置接口
 │   │       ├── strategy/route.ts        # 策略配置接口
 │   │       └── sensitive-words/route.ts # 敏感词库接口
 │   ├── components/
@@ -137,6 +138,7 @@ alchat-content-safety/
 │   │   └── ui/                     # shadcn/ui 组件库
 │   └── lib/
 │       ├── content-safety.ts       # 核心检测引擎（敏感词库+风险评分）
+│       ├── ai-safety-detector.ts   #核心引擎(接入使用通义千问API对用户输入内容进行安全检测，返回结构化的检测结果，包括风险等级、敏感类别和AI的判断理由)
 │       └── utils.ts                # 工具函数
 ├── public/                         # 静态资源
 ├── package.json                    # 项目依赖

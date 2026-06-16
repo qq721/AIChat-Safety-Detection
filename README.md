@@ -2,7 +2,7 @@
 
 > 基于 Next.js、React 和 TypeScript 实现的 AIChat 内容安全检测系统，支持敏感词检测、AI 语义审核、风险评分、检测日志、统计仪表盘、策略配置和敏感词库管理。
 
-- **仓库地址**：【此处填写 Git 仓库链接，例如：https://gitee.com/你的用户名/AIChat-Safety-Detection】
+- **仓库地址**：https://github.com/qq721/AIChat-Safety-Detection
 - **项目类型**：课程设计 / Web 全栈应用
 - **小组成员**：谌琪、孙颖、胡曦月
 - **主要功能**：对话监测、敏感词检测、AI 检测、日志追踪、统计分析、策略配置、敏感词库管理

@@ -52,16 +52,20 @@
 
 项目依赖以 `package.json` 为准，主要包括：
 
-| 依赖名称 | 作用 |
-|---|---|
-| next | Next.js 全栈框架，用于页面路由和 API 路由。 |
-| react / react-dom | 前端界面构建。 |
-| typescript | 类型约束与工程开发。 |
-| tailwindcss | 页面样式设计。 |
-| lucide-react | 图标库。 |
-| recharts | 图表展示，用于统计仪表盘。 |
-| zod | 数据校验。 |
-| clsx / tailwind-merge | CSS 类名合并工具。 |
+| 依赖名称 | 版本 | 作用 |
+|---|---|---|
+| next | 16.x | Next.js 全栈框架，用于页面路由和 API 路由 |
+| react / react-dom | 19.x | 前端界面构建 |
+| typescript | 5.x | 类型约束与工程开发 |
+| tailwindcss | 3.x | 页面样式设计 |
+| lucide-react | 最新 | 图标库 |
+| recharts | 2.x | 图表展示，用于统计仪表盘 |
+| zod | 3.x | 数据校验 |
+| clsx / tailwind-merge | 最新 | CSS 类名合并工具 |
+
+### 3.3 开源程序与第三方依赖
+
+本项目为纯 Node.js 全栈应用，无需额外安装独立第三方程序（如 MySQL、Redis 等）。所有依赖均通过 npm 包管理方式引入。
 
 ---
 

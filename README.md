@@ -275,14 +275,6 @@ data/
 ]
 ```
 
-建议 `.gitignore` 中加入如下规则，避免提交大型数据文件，仅保留少量测试样例：
-
-```text
-data/*
-!data/samples/
-!data/samples/**
-```
-
 ---
 
 ## 十一、系统不足与改进方向
@@ -316,41 +308,7 @@ data/*
 
 ---
 
-## 十三、提交说明
-
-提交 Git 仓库时，请不要提交以下文件或目录：
-
-```text
-node_modules/
-.next/
-.env
-.env.local
-.env.*
-dist/
-build/
-```
-
-建议提交内容包括：
-
-```text
-src/
-public/
-scripts/
-README.md
-package.json
-pnpm-lock.yaml
-.gitignore
-tsconfig.json
-next.config.ts
-postcss.config.mjs
-eslint.config.mjs
-components.json
-data/samples/sample_test_cases.json
-```
-
----
-
-## 十四、参考资料
+## 十三、参考资料
 
 1. Next.js 官方文档
 2. React 官方文档

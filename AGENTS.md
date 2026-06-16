@@ -36,7 +36,7 @@ src/
 │   └── ui/                     # shadcn/ui 组件
 └── lib/
     ├── content-safety.ts       # 核心引擎（敏感词库 + 风险评分算法 + 策略管理）
-    ├── ai-safety-detector.ts   # 核心引擎（接入使用通义千问API对用户输入内容进行安全检│                             测，返回结构化的检测结果，包括风险等级、敏感类别和AI的判断理由）
+    ├── ai-safety-detector.ts   # 核心引擎（接入使用通义千问API对用户输入内容进行安全检测，返回结构化的检测结果，包括风险等级、敏感类别和AI的判断理由）
     └── utils.ts                # cn 工具
 ```
 
